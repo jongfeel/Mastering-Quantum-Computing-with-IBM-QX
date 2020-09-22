@@ -11,4 +11,5 @@ except:
 
 if not (sys.version_info > (3, 0)):
 	raise Exception("You are running Python 2. Python 3.4+ is required for code examples")
-
+else:
+    print("Done")
